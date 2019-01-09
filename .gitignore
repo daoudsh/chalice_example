@@ -1,0 +1,4 @@
+cha-lambda/.chalice/deployments/
+cha-lambda/.chalice/venv/
+/cha-lambda/.chalice
+/cha-lambda/__pycache__

@@ -1,0 +1,17 @@
+START RequestId: 930243ba-13dd-11e9-af89-cdd6b20dae91 Version: $LATEST
+event:
+{
+    "path": "/",
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "resource": "/",
+    "httpMethod": "GET",
+    "queryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "body": ""
+}
+
+END RequestId: 930243ba-13dd-11e9-af89-cdd6b20dae91
+REPORT RequestId: 930243ba-13dd-11e9-af89-cdd6b20dae91	Duration: 27.58 ms	Billed Duration: 100 ms Memory Size: 128 MB	Max Memory Used: 21 MB
