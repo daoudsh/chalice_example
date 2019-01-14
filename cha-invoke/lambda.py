@@ -17,7 +17,7 @@ event = {
 }
 
 response = client.invoke(
-    FunctionName='cha-lambda-dev',
+    FunctionName='cha-lambda-dev-handler',
     InvocationType='RequestResponse',
     Payload=bytes(json.dumps(event), 'utf-8'),
     Qualifier='$LATEST'

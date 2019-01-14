@@ -1,12 +1,17 @@
 from chalice import Chalice
+import json
 
 app = Chalice(app_name='cha-lambda')
 
 
-@app.route('/')
-def index():
-    return {'hello': 'world'}
+# @app.route('/')
+# def index():
+#     return {'hello': 'world'}
 
+@app.lambda_function()
+def handler(event, context):
+    print('event: {}'.format(json.dumps(event, indent=4)))
+    return event
 
 # The view function above will return {"hello": "world"}
 # whenever you make an HTTP GET request to '/'.
